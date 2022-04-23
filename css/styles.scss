@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    padding: 1rem 2rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    nav{
+        margin-left: auto;
+        ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            li{
+                list-style: none;
+                margin: 0 28px;
+                color: #000!important;
+                text-decoration: none!important;
+                a{
+                    font-family: "Gilroy-SemiBold";
+                    font-size: 16px;
+                    color: #000;
+                    text-decoration: none;
+                }
+                
+            }
+            li:last-child{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 93px;
+                height: 33px;
+                background-color: #3734A9;
+                border-radius: 8px;
+                
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+    h1{
+        font-family: "Gilroy-Bold";
+        text-align: center;
+        margin: 0;
+        font-size: 56px;
+        line-height: 78.4px;
+        color: #1D1D1F;
+        #titleMarker{
+            font-family: "Gilroy";
+            color: #3734A9;
+            font-weight: 800;
+        }
+    }
+    
+    p{
+        font-family: "Gilroy-SemiBold";
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6E6E73;
+        margin-top: 40px;
+    }
+    
+    #videoPresentation{
+        margin-top: 200px;
+        min-width: 55vw;
+        max-width: 95vw;
+    }
+
+    .service1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 200px;
+        .introductionService{
+            width:45%;
+            h1{
+                text-align: left;
+            }
+
+        }
+
+        .detailService{
+            width: 45%;
+            h1{
+                text-align: left;
+                font-size: 32px;
+                line-height: 39.2px;
+            }
+            p{
+                font-family: "Gilroy-Medium";
+                // font-size: 20px;
+                // font-weight: 600;
+                // line-height: 28px;
+                // letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+        }
+    }
+
+}

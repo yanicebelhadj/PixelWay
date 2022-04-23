@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  padding: 1rem 2rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header nav {
+  margin-left: auto;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header nav ul li {
+  list-style: none;
+  margin: 0 28px;
+  color: #000 !important;
+  text-decoration: none !important;
+}
+header nav ul li a {
+  font-family: "Gilroy-SemiBold";
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+header nav ul li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93px;
+  height: 33px;
+  background-color: #3734A9;
+  border-radius: 8px;
+}
+header nav ul li:last-child a {
+  color: #fff;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.services h1 {
+  font-family: "Gilroy-Bold";
+  text-align: center;
+  margin: 0;
+  font-size: 56px;
+  line-height: 78.4px;
+  color: #1D1D1F;
+}
+.services h1 #titleMarker {
+  font-family: "Gilroy";
+  color: #3734A9;
+  font-weight: 800;
+}
+.services p {
+  font-family: "Gilroy-SemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6E6E73;
+  margin-top: 40px;
+}
+.services #videoPresentation {
+  margin-top: 200px;
+  min-width: 55vw;
+  max-width: 95vw;
+}
+.services .service1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.services .service1 .introductionService {
+  width: 45%;
+}
+.services .service1 .introductionService h1 {
+  text-align: left;
+}
+.services .service1 .detailService {
+  width: 45%;
+}
+.services .service1 .detailService h1 {
+  text-align: left;
+  font-size: 32px;
+  line-height: 39.2px;
+}
+.services .service1 .detailService p {
+  font-family: "Gilroy-Medium";
+  text-align: left;
+}
+
+/*# sourceMappingURL=styles.css.map */
